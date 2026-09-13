@@ -1,4 +1,4 @@
-// 1. Product: Класс пиццы, который мы строим
+
 public class Pizza {
     public enum Size { SMALL, MEDIUM, LARGE }
     public enum Dough { THIN, THICK }
@@ -8,7 +8,6 @@ public class Pizza {
     private final boolean hasCheese;
     private final boolean hasPepperoni;
 
-    // Конструктор доступен только билдерам
     protected Pizza(Size size, Dough dough, boolean hasCheese, boolean hasPepperoni) {
         this.size = size;
         this.dough = dough;

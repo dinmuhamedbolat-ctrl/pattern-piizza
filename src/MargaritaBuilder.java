@@ -1,4 +1,4 @@
-// 3. ConcreteBuilder 1: Маргарита
+
 public class MargaritaBuilder implements PizzaBuilder {
     private Pizza.Size size;
     private Pizza.Dough dough;

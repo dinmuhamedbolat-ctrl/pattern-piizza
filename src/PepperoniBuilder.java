@@ -1,4 +1,4 @@
-// 4. ConcreteBuilder 2: Пепперони
+
 public class PepperoniBuilder implements PizzaBuilder {
     private Pizza.Size size;
     private Pizza.Dough dough;
